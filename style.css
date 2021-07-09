@@ -1,0 +1,369 @@
+body
+{
+  background-color: #eeee;
+  box-sizing: border-box;
+  font-family: Arial Rounded MT Bold;
+  color: #1C4FF9;
+  font-size: 20px;	
+}
+body a{
+  display: block;
+  
+}
+nav {   
+width: 200%   
+height: 200px;
+background-size: 50;
+ 
+}
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+ 
+}
+.imp1 {
+  background : linear-gradient(to top left,black,red);
+  text-align:left;
+  justify content:center;
+  display:flex;	
+  margin-left:50px;
+  margin-right:50px;
+  margin-bottom:50px;
+}
+
+.imp1 .imp2 {
+  text-align:left;
+  display:block;
+  color:rgb(255,255,255);
+  font-family:Arial;
+  margin-left:15px;
+  margin-bottom:20px
+  width:100px
+
+}
+.imp1 .imp2 h2{
+ color:rgb(0,0,0);
+ font-size:40px;
+ margin-top: 10px;
+ text-align:center;
+ padding:50px;
+ font-family:Lucida Handwriting;
+}
+.imp1 imp2 p.note{
+  color:rgb(0,0,0);
+  font-size:17px;
+  margin:5px 0;
+  text-transfrmation:uppercase;
+  font-family:Times New Roman;
+  
+ 
+
+}
+.imp1 .imp2 p{
+  font-family:Times New Roman;
+  font-size:25px;
+} 
+.menu-bar
+{
+margin-left:35px;
+margin-right:55px;
+background-color:rgb(0,0,0);
+border-radius:20px;
+
+}
+
+.menu-bar ul li {
+  list-style: none;
+  display: inline-block;
+  float:center;
+  weight:120px;
+  padding:1px;
+  margin:10px;
+}
+.menu-bar ul li a{
+  display: block;
+  text-decoration: none;
+  font-size: 30px;
+  padding: 0 40px;
+  color:#fff;
+  
+}
+ .active, .menu-bar ul li:hover
+{
+background:rgb(255,0,0);
+border-radius:20px
+}
+.button1 {
+  background-color: rgb(255,0,0);
+  border-radius: 12px;
+  border: 2px solid #000000;
+  color: white;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  padding: 15px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  align :center;
+}
+.bottom
+{
+ background-color:rgb(0,0,0);
+ align:center;
+}
+.bottom pre{
+  text-align:center;
+  font-size:15px;
+  font-family:Times New Roman;
+  color:(211,211,211);
+}
+.bottom ul li {
+  list-style: none;
+  display: inline-block;
+  float:center;
+  weight:120px;
+  padding:0px;
+  margin:5px;
+}
+.bottom ul li a{
+  display: inline-block;
+  padding: 0 px;
+  color:#1C4FF9;
+  
+}
+
+
+.button2 {
+  background-color: rgb(255,0,0);
+  border-radius: 12px;
+  border: 2px solid #000000;
+  color: white;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  padding: 15px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  
+}
+
+
+.signin {
+  color: #f1f1f1;
+  text-align: center;
+}
+
+* {box-sizing: border-box}
+
+
+.container {
+  background-color:rgb(173,216,230);
+  padding: 16px;
+  margin-left:35px;
+  margin-right:35px;
+  margin-bottom:35px;
+  
+}
+
+
+input[type=text], input[type=password] {
+  width: 50%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: 3px solid black;
+  border-radius:5px;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+
+.registerbtn {
+  background-color: rgb(255,0,0);
+  border-radius: 12px;
+  border: 3px solid #000000;
+  color: white;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  padding: 15px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.registerbtn:hover {
+  opacity:1;
+}
+
+
+a {
+  color: dodgerblue;
+}
+
+
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}
+
+
+
+input[type=text], select, textarea {
+  width: 50%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 3px solid rgb(0,0,0); /* Gray border */
+  border-radius: 5px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+
+input[type=submit] {
+  background-color: rgb(255,0,0);
+  color: white;
+  cursor: pointer;
+  border-radius: 12px;
+  border: 2px solid #000000;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  padding: 15px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  margin-left:550px;
+}
+
+.container {
+   background-color: #C4DCF1;
+  padding: 20px;
+  font-color:rgb(0,0,0);
+  font-family:Times New Roman;
+}
+input [type="datetime-local"]{
+    width: 60%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 5px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+.imp3 {
+   background : linear-gradient(to top left,black,red);
+  text-align:left;
+  justify content:center;
+  display:flex;	
+  margin-left:50px;
+  margin-right:50px;
+  margin-bottom:50px;
+}
+
+.imp3 .imp4 {
+  text-align:left;
+  display:block;
+  color:#ffff;
+  font-family:Arial;
+  margin-left:15px;
+  margin-bottom:20px
+  width:100px
+
+}
+.imp3 .imp4 h2{
+ color:rgb(255,0,0);
+ font-size:30px;
+ margin-top: 10px;
+ text-align:center;
+ padding:50px;
+ font-family:Lucida Handwriting;
+}
+.imp3 .imp4 p{
+  font-size:22px;
+  margin:5px 0;
+  text-transfrmation:uppercase;
+  font-family:Times New Roman;
+ 
+
+}
+
+
+.pp {
+  text-align:left;
+  height:400px;
+  width:1200px;
+  justify content:left;
+  margin-left:50px;
+  margin-right:50px;
+  margin-bottom:50px;
+  overflow:scroll;
+  background-color:white;
+}
+.pp .ee{
+font-size:30px;
+color:rgb(0,0,0);
+font-family:Lucida Handwriting;
+
+}
+
+
+.pp hr{
+height:2px;
+border-width:0;
+color:black;
+
+}
+.pp .ff{
+ color:rgb(0,0,0);
+  text-transfrmation:uppercase;
+  margin-left:10px;
+  margin-right:0px;
+  
+}
+ 
+.form {
+align:center;
+width: 800px;
+margin-left:300px;
+margin-right:25px;
+}
+.form1 {
+align:center;
+width: 800px;
+margin-left:200px;
+margin-right:25px;
+font-family;Times New Roman;
+}
+
+.logo{
+ margin-left:100px;
+}
+.logo img{
+ border:2px solid rgb(0,0,0);
+ 
+}
